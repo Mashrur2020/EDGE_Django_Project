@@ -1,0 +1,51 @@
+<!-- templates/index.html -->
+{% extends 'base.html' %}
+{% block content %}
+<div class="container text-center">
+    <h1>Welcome to Watch Store</h1>
+    <p class="lead">Find the perfect watch for every occasion.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://www.luxurylifestylemag.co.uk/wp-content/uploads/2023/08/rolex-watches-1.jpg" class="card-img-top watch-image" alt="Watch 1">
+                <div class="card-body">
+                    <h5 class="card-title">Luxury Rolex Watch</h5>
+                    <p class="card-text">An elegant and timeless luxury watch from Rolex.</p>
+                    <a href="https://timepiecetradingllc.com/blogs/news/stunning-his-and-hers-rolex-watches-for-stylish-couples" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://gadgetbreeze.com.bd/wp-content/uploads/2023/11/Amazfit-Active-AMOLED-AI-Fitness-Coach-GPS-Smart-Watch.webp" class="card-img-top watch-image" alt="Watch 2">
+                <div class="card-body">
+                    <h5 class="card-title">Smartwatch</h5>
+                    <p class="card-text">Stay connected with the latest technology.</p>
+                    <a href="https://gadgetbreeze.com.bd/product/amazfit-active-amoled-ai-fitness-coach-gps-smart-watch/" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://olevswatches.com/wp-content/uploads/2021/09/Olevs-Classic-Waterproof-Genuine-Leather-Belts-Watch5.jpg" class="card-img-top watch-image" alt="Watch 3">
+                <div class="card-body">
+                    <h5 class="card-title">Classic Leather Watch</h5>
+                    <p class="card-text">A stylish watch with a premium leather strap.</p>
+                    <a href="https://olevswatches.com/product/olevs-classic-waterproof-genuine-leather-belts-quartz-watch/" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .watch-image {
+        width: 100%; /* Makes images responsive */
+        height: 250px; /* Fixed height for uniformity */
+        object-fit: cover; /* Ensures images fit well without distortion */
+    }
+</style>
+{% endblock %}
